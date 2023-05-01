@@ -3,8 +3,8 @@ const axios = require('axios');
 const app = express();
 
 const taikhoanmb = '0586218076';
-const deviceIdCommon ="86ffn1cf-mbib-0000-0000-2023050115563671";
-const sessionId ="1a8917b3-e67d-49a9-bbf4-74ccd8c693b1";
+const deviceIdCommon ="wabi95rp-mbib-0000-0000-2023050116245776";
+const sessionId = "f1d6da6f-9e58-4fb6-851b-69ae77691b9b";
 const sotaikhoanmb = '104567890';
 process.env.TZ = 'Asia/Ho_Chi_Minh';
 const todate = new Date().toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' }).split('/').reverse().join('/');
